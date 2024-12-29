@@ -1,9 +1,8 @@
 package com.system.parkinglot.model.entities;
-
-import com.system.parkinglot.constant.enums.SupportingVehicle;
+import com.system.parkinglot.constant.enums.VehicleType;
 
 public class Vehicle {
     int vehicleId;
     int vehicleNumber;
-    SupportingVehicle vehicleType;
+    VehicleType vehicleType;
 }

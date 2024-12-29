@@ -3,9 +3,14 @@ package com.system.parkinglot.model.entities;
 import java.util.List;
 
 public class ParkingLot {
-    int parkingLotId;
-    String name;
-    String type; 
-    List<ParkingFloor> parkingFloors;
-    List<Gate> gates;
+    private String parkingLotId;
+    private String parkingLotName;
+    private String parkingLotType; 
+    private String parkingLotAddress;
+    private List<ParkingFloor> parkingFloors;
+    private List<Gate> gates;
+
+
+
+
 }

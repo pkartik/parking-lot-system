@@ -1,10 +1,8 @@
 package com.system.parkinglot.model.dto;
 
-import com.system.parkinglot.model.entities.ParkingSlot;
+import java.util.List;
 
 public class ParkingFloorDTO {
-
     String floorNumber;
-    ParkingSlot parkingSlot;
-    
+    List<ParkingSlotDTO> parkingSlots;   
 }

@@ -1,8 +1,9 @@
 package com.system.parkinglot.constant.enums;
 
 public enum SupportingVehicle {
-    TWO_WHEELER("Two Wheeler"),
-    FOUR_WHEELER("Four Wheeler");
+    TWO_WHEELER("Two_Wheeler"),
+    THREE_WHEELER("Three_Wheeler"),
+    FOUR_WHEELER("Four_Wheeler");
 
     private final String supportingVehicle;
 
@@ -10,7 +11,7 @@ public enum SupportingVehicle {
         this.supportingVehicle = supportingVehicle;
     }
 
-    public String getSupportingVehicle(){
+    public String getSupportingVehicle() {
         return supportingVehicle;
     }
 

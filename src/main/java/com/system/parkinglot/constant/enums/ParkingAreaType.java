@@ -7,13 +7,11 @@ public enum ParkingAreaType {
     private final String description;
 
     ParkingAreaType(String description) {
-    this.description = description;
+        this.description = description;
+    }
 
-    
-}
-
- public String getDescription(){
-    return description;
- }
+    public String getDescription() {
+        return description;
+    }
 
 }

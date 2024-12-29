@@ -4,10 +4,10 @@ import com.system.parkinglot.constant.enums.SupportingVehicle;
 
 public class ParkingSlot {
 
-    int parkingSlotId;
-    String name;
-    Vehicle vehicle;
-    Status status;
-    SupportingVehicle SupportingVehicle;
+    private String parkingSlotId;
+    private String name;
+    private Vehicle vehicle;
+    private Status status;
+    private SupportingVehicle SupportingVehicle;
 
 }
