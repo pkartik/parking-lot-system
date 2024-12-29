@@ -1,6 +1,8 @@
 package com.system.parkinglot.model.dto;
 
+import com.system.parkinglot.constant.enums.GateType;
+
 public class GateDTO {
-    String gateType;
+    GateType gateType;
     String gateNumber;  
 }

@@ -1,13 +1,14 @@
 package com.system.parkinglot.model.entities;
 
+import com.system.parkinglot.constant.enums.ParkingSlotStatus;
 import com.system.parkinglot.constant.enums.SupportingVehicle;
 
 public class ParkingSlot {
 
     private String parkingSlotId;
-    private String name;
+    private String parkingSlotNumber;
     private Vehicle vehicle;
-    private Status status;
-    private SupportingVehicle SupportingVehicle;
+    private ParkingSlotStatus parkingSlotStatus;
+    private SupportingVehicle supportingVehicle;
 
 }

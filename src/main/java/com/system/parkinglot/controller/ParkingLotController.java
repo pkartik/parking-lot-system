@@ -19,7 +19,7 @@ public class ParkingLotController {
     private IParkingLotService iParkingLotService;
     
     @PostMapping
-    public ResponseEntity<ParkingLotResponse> createParkingLot(@RequestBody ParkingLotRequest parkingLotRequest){
+    public ResponseEntity<ParkingLotResponse> createParkingLot( @RequestBody ParkingLotRequest parkingLotRequest){
             
             return iParkingLotService.createParkingLot(parkingLotRequest);
 
